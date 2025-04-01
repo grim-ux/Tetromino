@@ -1,8 +1,16 @@
-/* General Styles */
 .unbounded-uniquifier {
   font-family: "Unbounded", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
   body {
@@ -18,17 +26,6 @@
   overflow: hidden;
 }
 
-/* Particles Background */
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1; /* Ensures it stays behind other elements */
-}
-
-/* Container for the menu */
 .menu-container {
   text-align: center;
   font-family: "Unbounded", sans-serif;
@@ -37,7 +34,6 @@
   border-radius: 15px;
 }
 
-/* Title Styling */
 h1 {
   font-family: "Unbounded", sans-serif;
   font-size: 3rem;
@@ -45,50 +41,4 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 700;
-}
-
-/* Buttons */
-button {
-  background-color: #393939;
-  color: white;
-  border: none;
-  padding: 10px 18px;
-  margin: 5px;
-  font-size: 1.2rem;
-  font-family: "Unbounded", sans-serif;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-button:hover {
-  background-color: #363534;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-}
-/* Responsive Design */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2rem;
-  }
-  button {
-    font-size: 1rem;
-    padding: 10px 20px;
-  }
-}
-/* Estilos para las Secciones */
-.section {
-  display: none; /* Oculta todas las secciones por defecto */
-  text-align: center;
-}
-
-.section.active {
-  display: block; /* Muestra solo la sección activa */
-}
-
-/* Estilo para los botones de las pestañas */
-.tab-buttons button.active {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }

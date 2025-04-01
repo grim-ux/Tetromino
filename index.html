@@ -5,33 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Takt - Main Menu</title>
   <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/buttons.css">
   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Particles Background -->
   <div id="particles-js"></div>
-
-  <!-- Elemento de Audio -->
   <audio id="background-music" loop>
-    Tu navegador no soporta el elemento de audio.
   </audio>
 
-  <!-- Contenedor Principal -->
   <div class="menu-container">
     <h1>Takt</h1>
     <!-- Barra de Pestañas -->
     <div class="tab-buttons">
-      <button onclick="showSection('menu')" class="active">Menu</button>
-      <button onclick="showSection('instructions')">Instructions</button>
-      <button onclick="showSection('settings')">Settings</button>
-    </div>
-    <br>
-    <!-- Sección del Menú -->
-    <div id="menu-section" class="section active">
       <button onclick="startGame()">Play</button>
+      <button onclick="showSection()">Instructions</button>
+      <button onclick="showSection()">Settings</button>
     </div>
 
-    <!-- Sección de Instrucciones -->
+
     <div id="instructions-section" class="section">
       <h1>Instructions</h1>
       <p>Type words in rhythm with the music to score points!</p>
@@ -45,10 +36,8 @@
     </div>
   </div>
 
-  <!-- Scripts -->
   <script src="js/particles.js"></script>
   <script src="js/songs.js"></script>
-  <script src="js/volume.js"></script>
   <script src="js/menu.js"></script>
 </body>
 </html>
