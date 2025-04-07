@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Takt - Main Menu</title>
+  <!-- CSS & GoogleFonts-->
+  <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/menu.css">
   <link rel="stylesheet" href="css/buttons.css">
+  <link rel="icon" href="/images/IconDisk.png" type="image/png">
   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <div id="particles-js"></div>
-  <audio id="background-music" loop>
-  </audio>
+  <audio id="background-music" loop></audio>
 
   <div class="menu-container">
     <h1>Takt</h1>
     <!-- Barra de Pestañas -->
     <div class="tab-buttons">
-      <button onclick="startGame()">Play</button>
-      <button onclick="showSection()">Instructions</button>
-      <button onclick="showSection()">Settings</button>
+      <button id="playGame">Play</button>
+      <button id="openModal">How To Play</button>
     </div>
 
-
-    <div id="instructions-section" class="section">
-      <h1>Instructions</h1>
-      <p>Type words in rhythm with the music to score points!</p>
-      <p>Press keys accurately to avoid penalties.</p>
-    </div>
-
-    <!-- Sección de Configuración -->
-    <div id="settings-section" class="section">
-      <h1>Settings</h1>
-      <p>Coming soon...</p>
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>How To Play</h2>
+        <p>The notes scrolling down towards key receptors that indicate when to click them</p>
+        <p>Press the keys accurately to avoid penalties.</p>
+        <p>Your buttons are:</p>
+        <h2>'D, F, J, K'</h2>
+        <p>Have Fun!</p>
+      </div>
     </div>
   </div>
 
+  <!-- Scripts -->
   <script src="js/particles.js"></script>
   <script src="js/songs.js"></script>
   <script src="js/menu.js"></script>
+  <script src="js/modal.js"></script>
 </body>
+
 </html>

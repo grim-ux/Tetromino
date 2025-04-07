@@ -1,16 +1,24 @@
 {
   "particles": {
     "number": {
-      "value": 110,
+      "value": 100,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 640
       }
     },
     "color": {
-      "value": ["#E23E57", "29A19C", "FFAC41", 
-      "726A95", "#F9D276", "#7FCD91", 
-      "#8BBABB", "#80AC7B", "97d57c"]
+      "value": [
+        "#E23E57",
+        "29A19C",
+        "FFAC41",
+        "726A95",
+        "#F9D276",
+        "#7FCD91",
+        "#8BBABB",
+        "#80AC7B",
+        "97d57c"
+      ]
     },
     "shape": {
       "type": "triangle",
@@ -32,15 +40,10 @@
         "enable": false,
         "speed": 40
       }
-    }, 
+    },
     "move": {
       "enable": true,
-      "speed": 1.99,
-      "attract": {
-        "enable": true,
-        "rotateX": 800,
-        "rotateY": 1000
-      }
+      "speed": 2
     }
   },
   "interactivity": {
