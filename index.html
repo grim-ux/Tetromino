@@ -4,13 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Takt - Main Menu</title>
-  <!-- CSS & GoogleFonts-->
+  <title>Tetromino</title>
+
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/menu.css">
   <link rel="stylesheet" href="css/buttons.css">
-  <link rel="icon" href="/images/IconDisk.png" type="image/png">
-  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+  <link rel="icon" href="/images/Tetromino.png" type="image/png">
 </head>
 
 <body>
@@ -18,26 +17,37 @@
   <audio id="background-music" loop></audio>
 
   <div class="menu-container">
-    <h1>Takt</h1>
+    <h1>TETROMINO</h1>
     <!-- Barra de Pestañas -->
     <div class="tab-buttons">
-      <button id="playGame">Play</button>
+      <button id="playGame" onclick="window.location.href='game.html'">Play</button>
       <button id="openModal">How To Play</button>
     </div>
 
-    <!-- Modal -->
-    <div id="myModal" class="modal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>How To Play</h2>
-        <p>The notes scrolling down towards key receptors that indicate when to click them</p>
-        <p>Press the keys accurately to avoid penalties.</p>
-        <p>Your buttons are:</p>
-        <h2>'D, F, J, K'</h2>
-        <p>Have Fun!</p>
-      </div>
-    </div>
+<!-- Modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>How To Play</h2>
+
+    <p><strong>Controls:</strong></p>
+    <ul>
+      <li><strong>Up Arrow</strong> – Change Rotation</li>
+      <li><strong>Down Arrow</strong> – Move Downwards</li>
+      <li><strong>Left Arrow</strong> – Move Left</li>
+      <li><strong>Right Arrow</strong> – Move Right</li>
+    </ul>
+
+    <p><strong>Special Keys:</strong></p>
+    <ul>
+      <li><strong>Space Bar</strong> – Place Block</li>
+      <li><strong>C</strong> – Hold Block</li>
+    </ul>
+
+    <p style="margin-top: 1.5em;"><em>Have fun!</em></p>
   </div>
+</div>
+
 
   <!-- Scripts -->
   <script src="js/particles.js"></script>

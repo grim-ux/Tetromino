@@ -9,19 +9,30 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* Contenido del modal */
 .modal-content {
-  background-color: #161515;
+  background-color: #14141d;
   margin: 15% auto;
   padding: 20px;
-  border: 1px solid #363534;
+  border: 1px solid #1c1c28;
   width: 80%;
   max-width: 500px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.modal-content h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+.modal-content li {
+  margin: 0.5em;
+  padding-left: 1.2em;
+  position: relative;
+}
 
-/* Botón de cerrar */
+.modal-content ul {
+  list-style: none;
+  padding-left: 0;
+}
 .close {
   color: #aaa;
   float: right;
@@ -29,9 +40,9 @@
   font-weight: bold;
   cursor: pointer;
 }
-
 .close:hover,
 .close:focus {
   color: #873f3f;
   text-decoration: none;
 }
+

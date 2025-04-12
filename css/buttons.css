@@ -1,21 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
 button {
-  background-color: #393939;
+  background-color: #1c1c28;
   color: white;
   border: none;
   padding: 10px 18px;
   margin: 5px;
-  font-size: 1.2rem;
-  font-family: "Unbounded", sans-serif;
+  font-size: 1.9rem;
+  font-family: "Tiny5", sans-serif;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.10);
 }
 
 button:hover {
-  background-color: #363534;
+  background-color: #14141d;
   transform: translateY(-2px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 12px rgba(23, 21, 21, 0.2);
 }
 
 .tab-buttons button.active {

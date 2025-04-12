@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tetromino</title>
+  <link rel="stylesheet" href="/css/game.css">
+  <link rel="icon" href="/images/Tetromino.png" type="image/png">
+</head>
+
+<body>
+  <audio autoplay loop>
+    <source src="/songs/game/Tetris 99 - Main Theme.mp3">
+  </audio>
+    
+  <div id="particles-js"></div>
+  <div class="game">
+    <div class="canvas-container">
+      <span>HOLD</span>
+      <div class="canvas">
+        <canvas id="canvas-hold"></canvas>
+      </div>
+    </div>
+    <div class="canvas-container">
+      <span class="score-container">SCORE: <span id="Score">0</span></span>
+      <div class="canvas">
+        <canvas id="canvas-tetris"></canvas>
+      </div>
+    </div>
+    <div class="canvas-container">
+      <span>NEXT</span>
+      <div class="canvas">
+        <canvas id="canvas-next"></canvas>
+      </div>
+    </div>
+  
+  <div class="menu" id="menu">
+    <span>TETROMINO</span>
+    <button id="btn-start">START</button>
+    <button id="btn-menuPrincipal" onclick="window.location.href='index.html'">Volver al Menu</button>
+  </div>
+</div>
+  <script src="/js/game.js" type="module"></script>
+  <script src="/js/particles.js"></script>
+</body>
+</html>

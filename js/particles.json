@@ -47,7 +47,7 @@
     }
   },
   "interactivity": {
-    "detect_on": "window",
+    "detect_on": "canva",
     "events": {
       "onhover": {
         "enable": true,

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Unbounded:wght@200..900&display=swap');
+
+* {
+  font-family: "Sixtyfour", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #1c1c28;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.game {
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.canvas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background-color: #13131c;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.canvas {
+  width: 100%;
+  background: #16161f;
+  padding: 12px 15px;
+  border-radius: 8px;
+}
+
+.canvas-container span,
+.menu span {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.canvas-container .score-container {
+  font-size: 20px;
+}
+.menu{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1c1c28;
+  border: 10px solid #13131c;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px 30px;  
+}
+.menu button{
+  padding: 5px;
+  cursor: pointer;
+}
