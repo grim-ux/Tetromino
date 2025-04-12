@@ -42,7 +42,7 @@ Welcome to **Tetromino**, a simple and colorful implementation of the classic Te
 
 ## 🎨 Screenshots
 
-[images/Screenshot1.jpg](images/Screenshot1.jpg)
+![Screenshot 1](images/Screenshot1.jpg)
 ![Screenshot 2](images/Screenshot2.jpg)
 ![Screenshot 3](images/Screenshot3.jpg)
 
