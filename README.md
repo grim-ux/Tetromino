@@ -63,7 +63,7 @@ Here’s the actual **Tetris gameplay** in action!
 ## 🚀 Play Now
 
 <div align="center">
-  <a href="https://your-username.github.io/your-repo-name">
+  <a href="(https://tetromino-game.vercel.app/)">
     <img src="https://img.shields.io/badge/PLAY--NOW-%F0%9F%8E%AE-blue?style=for-the-badge" alt="Play Tetris"/>
   </a>
 </div>
