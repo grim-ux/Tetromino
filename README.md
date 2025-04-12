@@ -39,3 +39,10 @@ Welcome to **Tetromino**, a simple and colorful implementation of the classic Te
 - Optional: `particles.js` for visual effects ✨
 
 ---
+## 🎨 Screenshots
+
+> (/images/Screenshot1.jpg)
+> (/images/Screenshot2.jpg)
+> (/images/Screenshot3.jpg)
+
+---
