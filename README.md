@@ -1,4 +1,4 @@
-# 🎮 Tetris JS — Classic Puzzle Game in JavaScript
+# 🎮 Tetromino — Classic Puzzle Game in JavaScript
 
 Welcome to **Tetris JS**, a simple and colorful implementation of the classic Tetris game using HTML5 Canvas and Vanilla JavaScript! 🎉
 
