@@ -42,8 +42,20 @@ Welcome to **Tetromino**, a simple and colorful implementation of the classic Te
 
 ## 🎨 Screenshots
 
+### 🧊 Game Menu  
+This is the **main menu** where you can start the game.  
 ![Screenshot 1](images/Screenshot1.jpg)
+
+---
+
+### 🎛️ Controls & Options  
+The **hold/next piece** UI and score tracking are visible here.  
 ![Screenshot 2](images/Screenshot2.jpg)
+
+---
+
+### 🎮 Gameplay  
+Here’s the actual **Tetris gameplay** in action!  
 ![Screenshot 3](images/Screenshot3.jpg)
 
 
