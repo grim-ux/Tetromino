@@ -59,9 +59,13 @@ Here’s the actual **Tetris gameplay** in action!
 ![Screenshot 3](images/Screenshot3.jpg)
 
 ---
----
 
 ## 🚀 Play Now
 
-[![Play Tetris](https://img.shields.io/badge/PLAY--NOW-%F0%9F%8E%AE-blue?style=for-the-badge)](https://grim-ux.github.io/Tetromino)
+<div align="center">
+  <a href="https://your-username.github.io/your-repo-name">
+    <img src="https://img.shields.io/badge/PLAY--NOW-%F0%9F%8E%AE-blue?style=for-the-badge" alt="Play Tetris"/>
+  </a>
+</div>
+
 
